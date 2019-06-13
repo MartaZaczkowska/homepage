@@ -1,23 +1,23 @@
 body {
-    background-color: bisque;
-    color: #ffffff;
+    background-color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
 }
 header {
     font-size: 20px;
 }
 .mainHeader {
-    color: #E00047;
-    font-size: 60px;
+    color: #DE3C4B;
+    font-size: 55px;
 }
 
 .sectionHeader {
-    color: rgb(228, 222, 50);
+    color: #09BC8A;
     font-size: 30px;
 }
 
 .subHeader {
-    color: #8EF9F3;
+    color: #2541B2;
     font-size: 22px;
 }
 p {
