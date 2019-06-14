@@ -28,7 +28,7 @@ p {
     width: 100%;
     max-width: 700px;
     font-size: 12px;
-    margin: 20px auto; 
+    margin: 20px auto;
 
 }
 
@@ -36,5 +36,11 @@ p {
     width: 100%;
     max-width: 700px;
     margin: 20px auto;
-    dispaly: block;
+    display: block;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
 }
