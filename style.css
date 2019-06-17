@@ -3,24 +3,28 @@ body {
     color: black;
     font-family: 'Lato', sans-serif;
 }
-header {
+.navigation__link {
     font-size: 20px;
 }
-.mainHeader {
+.main__header {
     color: #DE3C4B;
     font-size: 45px;
 }
 
-.sectionHeader {
+.about__heading {
+    color: #09BC8A;
+    font-size: 30px;
+}
+.diary__heading {
     color: #09BC8A;
     font-size: 30px;
 }
 
-.subHeader {
+.diary__heading {
     color: #2541B2;
     font-size: 22px;
 }
-p {
+.diary__paragraph {
     font-size: 16px;
 }
 
@@ -39,8 +43,11 @@ p {
     display: block;
 }
 
-.top {
+.footer__top {
+    font-size:18px;
     position: fixed;
     bottom: 10px;
     right: 15px;
+    color: #2541B2;
+    text-decoration: none;
 }
