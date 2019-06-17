@@ -11,11 +11,12 @@ body {
     font-size: 45px;
 }
 
-.about__heading {
+.about__header {
     color: #09BC8A;
     font-size: 30px;
 }
-.diary__heading {
+
+.diary__header {
     color: #09BC8A;
     font-size: 30px;
 }
@@ -40,6 +41,7 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 20px auto;
+    padding-top: 50px;S
     display: block;
 }
 
