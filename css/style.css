@@ -3,9 +3,24 @@ body {
     color: black;
     font-family: 'Lato', sans-serif;
 }
+
+.navigation {
+
+
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+}
 .navigation__link {
     font-size: 20px;
 }
+
 .header__title {
     color: #DE3C4B;
     font-size: 45px;
