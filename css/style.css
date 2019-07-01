@@ -1,20 +1,24 @@
 body {
-    background-color: white;
     color: black;
     font-family: 'Lato', sans-serif;
     background: rgb(5, 240, 241);
     background: linear-gradient(128deg, rgba(5, 240, 241, 0.9864320728291317) 12%, rgba(241, 255, 2, 1) 94%);
+    background-attachment: fixed;
 }
 
-.navigation {
+.navigation {}
+
+.navigation__item {
+    display: block;
+    margin: 0 16px;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-content: center;
-}
-
-li {}
-
+    justify-content: center;
 }
 
 .navigation__link {
@@ -26,13 +30,8 @@ li {}
     font-size: 45px;
 }
 
-.about__header {
-    color: #09BC8A;
-    font-size: 30px;
-}
-
-.diary__header {
-    color: #09BC8A;
+.about__header, .diary__header {
+    color: #2541B2;
     font-size: 30px;
 }
 
