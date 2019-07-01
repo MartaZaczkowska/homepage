@@ -1,11 +1,6 @@
-console.log('Witaj!');
-const name = 'Marta';
-const age = 32;
+const welcome = (name, age) => {
+    console.log (`Witaj ${name}, masz ${age} lat!`);
+}
 
-console.log(name);
-console.log(age);
+welcome(`Artur`, 31)
 
-console.log(`Nazywam się ${name} i mam ${age} lat(a). Zapraszam na moją stronę.`);
-
-const about = document.querySelector('.about__paragraph--js');
-about.innerHTML = `Nazywam się ${name} i mam ${age} lat(a).`;
