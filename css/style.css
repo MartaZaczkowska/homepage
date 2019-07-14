@@ -14,6 +14,16 @@ body {
     background-attachment: fixed;
 }
 
+.header__title {
+    color: #DE3C4B;
+    font-size: 45px;
+}
+
+.about__header, .diary__header {
+    color: #2541B2;
+    font-size: 30px;
+}
+
 .navigation {}
 
 .navigation__item {
@@ -31,25 +41,6 @@ body {
 
 .navigation__link {
     font-size: 20px;
-}
-
-.header__title {
-    color: #DE3C4B;
-    font-size: 45px;
-}
-
-.about__header, .diary__header {
-    color: #2541B2;
-    font-size: 30px;
-}
-
-.diary__heading {
-    color: #2541B2;
-    font-size: 22px;
-}
-
-.diary__paragraph {
-    font-size: 16px;
 }
 
 .footer {
@@ -75,17 +66,58 @@ body {
     text-decoration: none;
 }
 
+.diary__header {
+    grid-area: header;
+    color: #2541B2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.diary__heading {
+    color: #2541B2;
+    font-size: 22px;
+}
+
+.diary__paragraph {
+    font-size: 16px;
+}
+
 .grid {
     display: grid;
-    grid-template-areas: " header header" "content content" "content content";
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
 }
 
-.grid__header {
-    grid-area: header;
-    color: #2541B2;
-    font-size: 30px;
-    text-align: center;
+@media (max-width: 640px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .navigation__list {
+        flex-direction: column;
+        display: none;
+    }
+    .navigation__list--visible {
+        display: flex;
+    }
+    .navigation__item {
+        margin: 16px;
+    }
+    .navigation__switcher {
+        border: none;
+        background: none;
+        font-weight: bold;
+        font-size: 25px;
+        color:darkblue;
+
+    }
+}
+
+@media (min-width: 641px) {
+    .main {
+        max-width: 900px;
+    }
+    .navigation__switcher {
+        display: none;
+    }
 }
